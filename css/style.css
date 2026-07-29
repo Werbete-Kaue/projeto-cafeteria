@@ -11,3 +11,36 @@
     --branco: #FFFFFF;
     --texto: #333333;
 }
+
+body {
+    background-color: var(--marrom-claro);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo h1 {
+    color: var(--texto);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--texto);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
