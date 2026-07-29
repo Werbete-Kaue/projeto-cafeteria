@@ -56,3 +56,43 @@ body {
 .menu a:hover {
     color: var(--bege);
 }
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-left {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hero-left h1 {
+    font-size: 3rem;
+    color: var(--bege);
+    line-height: 1.2;
+}
+
+.hero-left p {
+    font-size: 2rem;
+    line-height: 1.3;
+    color: var(--branco);
+
+}
+
+.hero-left a {
+    padding: 1rem 2.5rem;
+    background-color: var(--marrom-escuro);
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5rem;
+    font-weight: 600;
+}
+
+.hero-left a:hover {
+    color: var(--bege);
+}
