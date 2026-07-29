@@ -121,10 +121,6 @@ body {
     height: auto;
 }
 
-.about {
-    /* outline: 2px solid; */
-}
-
 .about-content {
     display: flex;
     align-items: center;
