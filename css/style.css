@@ -101,6 +101,10 @@ body {
     color: var(--bege);
 }
 
+.about {
+    /* outline: 2px solid; */
+}
+
 .about-content {
     display: flex;
     align-items: center;
@@ -122,6 +126,11 @@ body {
     border-radius: 4rem;
 }
 
+.cardapio {
+    /* outline: 2px solid; */
+    margin-top: 4rem;
+}
+
 .cardapio-cards {
     display: flex;
     align-items: center;
@@ -131,7 +140,9 @@ body {
 }
 
 .cardapio-card {
-    outline: 2px solid black;
+    border-radius: 1.5rem;
+    background-color: var(--marrom-escuro);
+    padding-bottom: 1.4rem;
 }
 
 .cardapio-card-img {
@@ -145,5 +156,28 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center ;
-    border-radius: 5rem;
+    border-radius: 1rem;
+}
+
+.cardapio-card-text {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.cardapio-card-text h1 {
+    color: var(--bege);
+}
+
+.cardapio-card-text p {
+    color: var(--branco);
+    margin: 0 1rem 0.5rem;
+}
+
+.cardapio-card-text span {
+    padding: 0.5rem 1rem;
+    background-color: var(--marrom-claro);
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    color: var(--bege);
 }
