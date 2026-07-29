@@ -20,6 +20,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.container {
+    width: 100%;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -95,4 +99,25 @@ body {
 
 .hero-left a:hover {
     color: var(--bege);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.about-left h1 {
+    color: var(--bege);
+    font-size: 3rem;
+}
+
+.about-left p {
+    color: var(--branco);
+    font-size: 2rem;
+}
+
+.about-right img {
+    border-radius: 4rem;
 }
