@@ -181,3 +181,11 @@ body {
     font-weight: 600;
     color: var(--bege);
 }
+
+footer {
+    margin-top: 10rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--marrom-escuro);
+    color: var(--branco);
+}
