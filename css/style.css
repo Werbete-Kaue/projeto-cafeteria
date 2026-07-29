@@ -30,6 +30,11 @@ body {
 .header-logo {
     display: flex;
     align-items: center;
+    gap: 0.3rem;
+}
+
+.header-logo img {
+    margin-bottom: 1rem;
 }
 
 .header-logo h1 {
@@ -46,4 +51,8 @@ body {
     text-decoration: none;
     color: var(--texto);
     font-size: 1.5rem;
+}
+
+.menu a:hover {
+    color: var(--bege);
 }
