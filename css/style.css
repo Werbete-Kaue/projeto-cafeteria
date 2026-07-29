@@ -104,10 +104,13 @@ body {
     color: black;
     border-radius: 1.5rem;
     font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 .hero-left a:hover {
     color: var(--bege);
+    transform: scale(1.1);
 }
 
 .hero-right {
@@ -186,7 +189,7 @@ body {
 
 .cardapio-card-text p {
     color: var(--branco);
-    margin: 0 1rem 0.5rem;
+    margin: 0 1rem 1rem;
 }
 
 .cardapio-card-text span {
@@ -196,6 +199,11 @@ body {
     border-radius: 1rem;
     font-weight: 600;
     color: var(--bege);
+    cursor: pointer;
+}
+
+.cardapio-card-text span:hover {
+    background-color: #8d6e6397;
 }
 
 footer {
