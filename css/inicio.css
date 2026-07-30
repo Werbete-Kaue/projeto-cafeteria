@@ -105,19 +105,35 @@
 }
 
 .hero-left a {
-    padding: 1rem 2.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: var(--radius-md);
+    background-color: var(--marrom-escuro);
+    color: var(--bege);
+    font-weight: 600;
+    transition: transform var(--transition),
+    box-shadow var(--transition);
+
+
+    /* padding: 1rem 2.5rem;
     background-color: var(--marrom-escuro);
     text-decoration: none;
     color: black;
     border-radius: 1.5rem;
     font-weight: 600;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; */
 }
 
 .hero-left a:hover {
-    color: var(--bege);
-    transform: scale(1.1);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+
+
+    /* color: var(--bege);
+    transform: scale(1.1); */
 }
 
 .hero-right {
@@ -127,6 +143,6 @@
 }
 
 .hero-right img {
-    max-width: 100%;
-    height: auto;
+    max-width: 520px;
+    width: 100%;
 }
