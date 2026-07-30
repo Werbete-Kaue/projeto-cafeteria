@@ -1,0 +1,67 @@
+.cardapio {
+    margin-top: 4rem;
+}
+
+.cardapio-cards {
+    display: flex;
+    align-items: center;
+    margin: 3rem;
+    gap: 2rem;
+
+}
+
+.cardapio-card {
+    border-radius: 1.5rem;
+    background-color: var(--marrom-escuro);
+    padding-bottom: 1.4rem;
+}
+
+.cardapio-card-img {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+}
+
+.cardapio-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center ;
+    border-radius: 1rem;
+}
+
+.cardapio-card-text {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.cardapio-card-text h1 {
+    color: var(--bege);
+}
+
+.cardapio-card-text p {
+    color: var(--branco);
+    margin: 0 1rem 1rem;
+}
+
+.cardapio-card-text span {
+    padding: 0.5rem 1rem;
+    background-color: var(--marrom-claro);
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    color: var(--bege);
+    cursor: pointer;
+}
+
+.cardapio-card-text span:hover {
+    background-color: #8d6e6397;
+}
+
+footer {
+    margin-top: 10rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--marrom-escuro);
+    color: var(--branco);
+}
