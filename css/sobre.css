@@ -2,19 +2,42 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2rem;
+    gap: var(--space-x1);
 }
 
-.about-left h1 {
+.about-left {
+    flex: 1;
+    max-width: 550px;
+}
+
+.about-left h2 {
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
     color: var(--bege);
-    font-size: 3rem;
+    margin-bottom: var(--space-md);
 }
 
 .about-left p {
     color: var(--branco);
-    font-size: 2rem;
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+
+.about-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .about-right img {
-    border-radius: 4rem;
+    width: 100%;
+    max-width: 500px;
+    border-radius: var(--radius-lg);
+    object-fit: cover;
+    transition: transform var(--transition),
+    box-shadow var(--transition);
+}
+
+.about-right img:hover {
+    transform: scale(1.03);
+    box-shadow: var(--shadow-md);
 }
