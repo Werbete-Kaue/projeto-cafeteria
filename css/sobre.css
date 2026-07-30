@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: var(--space-x1);
+    gap: var(--space-xl);
 }
 
 .about-left {

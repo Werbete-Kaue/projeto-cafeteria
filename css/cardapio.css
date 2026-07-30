@@ -26,9 +26,6 @@
     flex-direction: column;
     transition: transform var(--transition),
     box-shadow var(--transition);
-    /* border-radius: 1.5rem;
-    background-color: var(--marrom-escuro);
-    padding-bottom: 1.4rem; */
 }
 
 .cardapio-card:hover {
@@ -81,18 +78,6 @@
     font-weight: 700;
     color: var(--bege);
     transition: background var(--transition);
-
-
-
-
-
-    /* padding: 0.5rem 1rem;
-    background-color: var(--marrom-claro);
-    font-size: 1.5rem;
-    border-radius: 1rem;
-    font-weight: 600;
-    color: var(--bege);
-    cursor: pointer; */
 }
 
 .cardapio-card-text span:hover {
