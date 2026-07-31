@@ -78,6 +78,7 @@
     font-weight: 700;
     color: var(--bege);
     transition: background var(--transition);
+    cursor: pointer;
 }
 
 .cardapio-card-text span:hover {
