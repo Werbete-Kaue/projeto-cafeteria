@@ -57,6 +57,11 @@
     .hero-right {
         max-width: 360px;
     }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* Celulares pequenos */
