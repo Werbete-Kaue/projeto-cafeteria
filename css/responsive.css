@@ -62,7 +62,7 @@
     .about-content {
         flex-direction: column;
         align-items: center;
-        align-items: center;
+        text-align: center;
         gap: var(--space-lg);
     }
 
@@ -72,30 +72,43 @@
 
     .about-right {
         max-width: 360px;
+        width: 100%;
     }
 
     .section-title {
         margin-bottom: 1rem;
+        font-size: 2rem;
     }
 
     .cardapio-cards {
         flex-direction: column;
+        align-items: center;
     }
 
-    .cardapio-card-img img {
-        max-width: 100%;
+    .cardapio-card {
+        max-width: 420px;
+        width: 100%;
+    }
+
+    .cardapio-card-img {
+        aspect-ratio: 16/10;
     }
 
     .cardapio-card-text h3 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .cardapio-card-text p {
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
 
     .cardapio-card-text span {
-        font-size: 1.9rem;
+        font-size: 1.2rem;
+    }
+
+    footer {
+        padding: 1.5rem;
+        font-size: .9rem;
     }
 }
 /* Celulares pequenos */
