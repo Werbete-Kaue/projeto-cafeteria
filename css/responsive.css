@@ -73,8 +73,31 @@
     .about-right {
         max-width: 360px;
     }
-}
 
+    .section-title {
+        margin-bottom: 1rem;
+    }
+
+    .cardapio-cards {
+        flex-direction: column;
+    }
+
+    .cardapio-card-img img {
+        max-width: 100%;
+    }
+
+    .cardapio-card-text h3 {
+        font-size: 2rem;
+    }
+
+    .cardapio-card-text p {
+        font-size: 1.8rem;
+    }
+
+    .cardapio-card-text span {
+        font-size: 1.9rem;
+    }
+}
 /* Celulares pequenos */
 @media (max-width: 480px) {
 
