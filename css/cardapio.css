@@ -85,6 +85,17 @@
     background-color: #8d6e6397;
 }
 
+.btn-top {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+    background-color: var(--marrom-escuro);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
 footer {
     margin-top: 10rem;
     padding: 2rem;
