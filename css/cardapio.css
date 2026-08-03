@@ -2,7 +2,7 @@
     text-align: center;
     font-size:clamp(2.5rem,5vw,3.5rem);
     color: var(--bege);
-    margin-bottom: var(--space-x1);
+    margin-bottom: var(--space-xl);
 }
 
 
